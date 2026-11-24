@@ -5,7 +5,7 @@ language models answered the Analytic Hierarchy Process (AHP) pairwise-compariso
 supplier-selection problem (5 main criteria, 4 delivery sub-criteria) under three prompt strategies, and their
 weights were compared with those of seven human experts and used to rank five suppliers with TOPSIS, ARAS
 and EDAS. The code that produced and checks every number is in
-[llm-ahp-mcdm](https://github.com/baa-git/llm-ahp-mcdm) (version v0.2.0); this repository contains no code.
+[llm-ahp-mcdm](https://github.com/baa-git/llm-ahp-mcdm) (version v1.0.0); this repository contains no code.
 
 - **Models (OpenRouter):** claude-haiku-4.5, claude-sonnet-4.6, deepseek-v3.2, gemini-3.1-flash-lite, glm-5,
   gpt-4o, gpt-5.2, minimax-m2.5, qwen3.5-397b; temperature 0.6; judge model x-ai/grok-4.20 for revisions.
@@ -234,7 +234,7 @@ No API calls and no key are needed; everything is recomputed from `results/raw/`
 
 ```
 git clone https://github.com/baa-git/llm-ahp-mcdm-study
-git clone --branch v0.2.0 https://github.com/baa-git/llm-ahp-mcdm
+git clone --branch v1.0.0 https://github.com/baa-git/llm-ahp-mcdm
 cd llm-ahp-mcdm
 python -m pip install numpy matplotlib
 python -m unittest discover -s tests            # offline unit tests (synthetic data)
@@ -251,7 +251,7 @@ gives the same results, no key material is stored, all 89 revision chains follow
 writes the tables, appendix and figures to `../check/`; the CSV tables and appendix files are byte-identical to
 those in `results/report/` (compare with `diff -r ../check/tables results/report/tables` from this repository;
 figure files can differ byte-wise with another matplotlib version). Omit `--out` / `--report` to regenerate the
-files in place. With the code installed (`pip install git+https://github.com/baa-git/llm-ahp-mcdm@v0.2.0`)
+files in place. With the code installed (`pip install git+https://github.com/baa-git/llm-ahp-mcdm@v1.0.0`)
 the same commands are available as `ahp-bench audit ...`, `ahp-bench report ...`.
 
 ## Costs
