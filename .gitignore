@@ -1,0 +1,13 @@
+# secrets never belong here
+.env
+.env.*
+
+# generated scratch output
+results/dry_run/
+results/*/dry_run/
+check/
+__pycache__/
+
+# private work log and local agent settings
+_calisma-notlari.md
+.claude/settings.local.json

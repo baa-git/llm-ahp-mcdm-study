@@ -1,0 +1,27 @@
+Respondents,Guidance,Technique,Condition,Comparison,Task,Replies,Ranking equals prompted order,Prompted first criterion ranked first,Mean Spearman rho with prompted order
+claude-haiku-4.5,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+claude-sonnet-4.6,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+deepseek-v3.2,guided,zero-shot,guided,prompted,main,5,2,2,0.920
+gemini-3.1-flash-lite,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+glm-5,guided,zero-shot,guided,prompted,main,5,4,5,0.980
+gpt-4o,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+gpt-5.2,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+minimax-m2.5,guided,zero-shot,guided,prompted,main,5,4,5,0.980
+qwen3.5-397b,guided,zero-shot,guided,prompted,main,5,5,5,1.000
+Panel,guided,zero-shot,guided,prompted,main,45,40,42,0.987
+Panel,unguided,zero-shot,direct,reference (order not shown),main,45,6,21,0.776
+Panel,unguided,CoT,CoT,reference (order not shown),main,45,7,24,0.711
+Experts (individual matrices),,,,reference (order not shown),main,7,1,2,0.671
+claude-haiku-4.5,guided,zero-shot,guided,prompted,delivery,5,,5,
+claude-sonnet-4.6,guided,zero-shot,guided,prompted,delivery,5,,5,
+deepseek-v3.2,guided,zero-shot,guided,prompted,delivery,5,,5,
+gemini-3.1-flash-lite,guided,zero-shot,guided,prompted,delivery,5,,5,
+glm-5,guided,zero-shot,guided,prompted,delivery,5,,5,
+gpt-4o,guided,zero-shot,guided,prompted,delivery,5,,5,
+gpt-5.2,guided,zero-shot,guided,prompted,delivery,5,,5,
+minimax-m2.5,guided,zero-shot,guided,prompted,delivery,5,,5,
+qwen3.5-397b,guided,zero-shot,guided,prompted,delivery,5,,5,
+Panel,guided,zero-shot,guided,prompted,delivery,45,,45,
+Panel,unguided,zero-shot,direct,reference (order not shown),delivery,45,,27,
+Panel,unguided,CoT,CoT,reference (order not shown),delivery,45,,41,
+Experts (individual matrices),,,,reference (order not shown),delivery,7,,3,

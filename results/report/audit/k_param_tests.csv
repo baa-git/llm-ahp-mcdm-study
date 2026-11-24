@@ -1,0 +1,7 @@
+model,extra_params,calls,http_200,parsed_answer_sets,distinct_answer_sets,errors,mean_reasoning_tokens,cost_usd
+gpt-5.2,"{""reasoning"": {""effort"": ""none""}, ""temperature"": 0}",5,5,5,5,,0.0,0.0116
+gpt-5.2,"{""reasoning"": {""effort"": ""none""}, ""temperature"": 1.5}",5,5,5,5,,0.0,0.0115
+minimax-m2.5,"{""provider"": {""allow_fallbacks"": false, ""order"": [""Venice""]}, ""reasoning"": {""effort"": ""none""}, ""temperature"": 0.6}",1,0,0,0,Reasoning is mandatory for this endpoint and cannot be disabled. (1),,0.0
+minimax-m2.5,"{""reasoning"": {""enabled"": false}, ""temperature"": 0.6}",1,0,0,0,Reasoning is mandatory for this endpoint and cannot be disabled. (1),,0.0
+minimax-m2.5,"{""reasoning"": {""max_tokens"": 0}, ""temperature"": 0.6}",1,0,0,0,Reasoning is mandatory for this endpoint and cannot be disabled. (1),,0.0
+minimax-m2.5,"{""temperature"": 0.6}",1,1,1,1,,720.0,0.0010

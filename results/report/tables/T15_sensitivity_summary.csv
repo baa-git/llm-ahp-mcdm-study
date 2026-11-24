@@ -1,0 +1,16 @@
+Varied criterion,Method,Equal-weight top supplier,Top supplier at 0.05,Top supplier at 0.70,Distinct rankings,Levels with equal-weight top,Top supplier first differs at
+Delivery,TOPSIS,Epsilon_Group,Epsilon_Group,Alpha_Inc,2,11,0.60
+Delivery,ARAS,Epsilon_Group,Epsilon_Group,Alpha_Inc,2,13,0.70
+Delivery,EDAS,Alpha_Inc,Epsilon_Group,Alpha_Inc,2,10,0.05
+Financial,TOPSIS,Epsilon_Group,Epsilon_Group,Alpha_Inc,2,13,0.70
+Financial,ARAS,Epsilon_Group,Epsilon_Group,Epsilon_Group,1,14,
+Financial,EDAS,Alpha_Inc,Epsilon_Group,Alpha_Inc,2,9,0.05
+Quality,TOPSIS,Epsilon_Group,Epsilon_Group,Alpha_Inc,2,5,0.30
+Quality,ARAS,Epsilon_Group,Epsilon_Group,Alpha_Inc,2,8,0.45
+Quality,EDAS,Alpha_Inc,Epsilon_Group,Alpha_Inc,2,10,0.05
+Volume,TOPSIS,Epsilon_Group,Epsilon_Group,Epsilon_Group,1,14,
+Volume,ARAS,Epsilon_Group,Epsilon_Group,Epsilon_Group,1,14,
+Volume,EDAS,Alpha_Inc,Epsilon_Group,Epsilon_Group,1,0,0.05
+Compliance,TOPSIS,Epsilon_Group,Alpha_Inc,Epsilon_Group,2,12,0.05
+Compliance,ARAS,Epsilon_Group,Alpha_Inc,Epsilon_Group,2,13,0.05
+Compliance,EDAS,Alpha_Inc,Alpha_Inc,Epsilon_Group,2,3,0.20

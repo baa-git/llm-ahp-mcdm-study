@@ -1,0 +1,6 @@
+Weights,Supplier,TOPSIS score,TOPSIS rank,ARAS score,ARAS rank,EDAS score,EDAS rank
+Equal (1/8),Alpha_Inc,0.7709,2,0.7658,2,0.9671,1
+Equal (1/8),Beta_Supplies,0.3795,4,0.5470,4,0.3260,4
+Equal (1/8),Delta_Logistics,0.1143,5,0.5163,5,0.0115,5
+Equal (1/8),Epsilon_Group,0.7787,1,0.8235,1,0.8894,2
+Equal (1/8),Gamma_Co,0.6326,3,0.6328,3,0.6494,3

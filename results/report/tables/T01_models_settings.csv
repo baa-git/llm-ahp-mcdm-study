@@ -1,0 +1,10 @@
+Model,Developer,OpenRouter id,Temperature (requested),Reasoning (applied),Mean reasoning tokens,Providers seen,Calls,Parse failures,Total cost (USD)
+claude-haiku-4.5,Anthropic,anthropic/claude-haiku-4.5,0.6,effort=none,0.0,Amazon Bedrock,30,0,0.2046
+claude-sonnet-4.6,Anthropic,anthropic/claude-sonnet-4.6,0.6,effort=none,0.0,Claude Platform on AWS,30,0,0.6426
+deepseek-v3.2,DeepSeek,deepseek/deepseek-v3.2,0.6,effort=none,0.0,Baidu; DeepInfra; DigitalOcean,30,0,0.0191
+gemini-3.1-flash-lite,Google,google/gemini-3.1-flash-lite,0.6,effort=none,0.0,Google,30,0,0.0224
+glm-5,Zhipu AI,z-ai/glm-5,0.6,effort=none,0.0,Amazon Bedrock; Baidu; Novita; SiliconFlow; StreamLake; Z.AI,30,0,0.0697
+gpt-4o,OpenAI,openai/gpt-4o,0.6,omitted,0.0,OpenAI,30,0,0.1869
+gpt-5.2,OpenAI,openai/gpt-5.2,0.6,effort=none,0.0,OpenAI,30,0,0.2215
+minimax-m2.5,MiniMax,minimax/minimax-m2.5,0.6,effort=minimal,691.6,DigitalOcean,30,0,0.0453
+qwen3.5-397b,Alibaba Cloud,qwen/qwen3.5-397b-a17b,0.6,effort=none,0.0,Alibaba; Parasail; StreamLake,30,0,0.0663

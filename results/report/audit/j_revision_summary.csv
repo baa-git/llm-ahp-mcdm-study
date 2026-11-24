@@ -1,0 +1,28 @@
+item,value
+tag,revision_final
+source_tag,main
+judge_models,"[""x-ai/grok-4.20""]"
+judge_model_ids_in_calls,"[""x-ai/grok-4.20""]"
+chains_expected,89
+chains_present,89
+chains_missing,[]
+calls,250
+calls_ok,250
+parse_ok,250
+judge_calls,500
+judge_calls_by_purpose,"{""feedback"": 250, ""verdict"": 250}"
+judge_calls_ok,500
+judge_parse_ok,500
+judge_calls_expected,"{""feedback"": 250, ""verdict"": 250}"
+orphan_judge_calls,0
+feedback_new,250
+feedback_reused,0
+feedback_fallback_code_prompt,0
+verdict_valid,250
+verdict_invalid,0
+verdict_not_requested,0
+verdict_counts,"{""yes"": 45, ""partly"": 81, ""no"": 124}"
+chains_reached,69
+cost_panel,0.6633
+cost_judge,0.4735
+cost_judge_from_revision_records,0.4735

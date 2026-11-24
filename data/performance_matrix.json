@@ -1,0 +1,93 @@
+{
+ "alternatives": [
+  "Alpha_Inc",
+  "Beta_Supplies",
+  "Delta_Logistics",
+  "Epsilon_Group",
+  "Gamma_Co"
+ ],
+ "benefit_mask": [
+  true,
+  false,
+  false,
+  false,
+  true,
+  false,
+  true,
+  false
+ ],
+ "codes": [
+  "D1",
+  "D2",
+  "D3",
+  "D4",
+  "F",
+  "Q",
+  "V",
+  "C"
+ ],
+ "criteria": [
+  "Delivered Orders",
+  "Pending Orders",
+  "Cancelled Orders",
+  "Partially Delivered Orders",
+  "Average Discount Rate",
+  "Defective Rate",
+  "Average Items per Order",
+  "Non-Compliance Rate"
+ ],
+ "matrix": [
+  [
+   107.0,
+   11.0,
+   13.0,
+   10.0,
+   8.21,
+   1.81,
+   1066.77,
+   6.38
+  ],
+  [
+   110.0,
+   19.0,
+   14.0,
+   13.0,
+   7.83,
+   7.67,
+   1157.15,
+   24.36
+  ],
+  [
+   120.0,
+   17.0,
+   16.0,
+   18.0,
+   7.81,
+   10.83,
+   1062.29,
+   39.18
+  ],
+  [
+   120.0,
+   18.0,
+   14.0,
+   14.0,
+   8.04,
+   2.6,
+   1084.66,
+   1.81
+  ],
+  [
+   103.0,
+   16.0,
+   6.0,
+   18.0,
+   7.98,
+   4.45,
+   1104.31,
+   13.99
+  ]
+ ],
+ "note": "Rows = alternatives, columns = indicators. D1..D4 are order counts; F, Q, V, C as given.",
+ "source": "scenario1_audit.json (GDN manuscript evidence): alternatives, criteria, benefit_mask, performance_matrix"
+}

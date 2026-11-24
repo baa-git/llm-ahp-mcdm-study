@@ -1,0 +1,11 @@
+Weights,Supplier,TOPSIS rank counts,TOPSIS rank rates,ARAS rank counts,ARAS rank rates,EDAS rank counts,EDAS rank rates
+Experts,Alpha_Inc,2,2,2,2,1,1
+Experts,Beta_Supplies,4,4,4,4,4,4
+Experts,Delta_Logistics,5,5,5,5,5,5
+Experts,Epsilon_Group,1,1,1,1,2,2
+Experts,Gamma_Co,3,3,3,3,3,3
+"LLM panel Unguided, zero-shot (direct)",Alpha_Inc,2,2,2,2,2,2
+"LLM panel Unguided, zero-shot (direct)",Beta_Supplies,4,4,4,4,4,4
+"LLM panel Unguided, zero-shot (direct)",Delta_Logistics,5,5,5,5,5,5
+"LLM panel Unguided, zero-shot (direct)",Epsilon_Group,1,1,1,1,1,1
+"LLM panel Unguided, zero-shot (direct)",Gamma_Co,3,3,3,3,3,3

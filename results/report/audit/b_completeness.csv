@@ -1,0 +1,4 @@
+tag,expected,records,cells_present,missing,duplicated,unexpected,cells_without_parse_ok
+main,270,270,270,0,0,0,0
+temp_0.0,54,54,54,0,0,0,0
+temp_1.0,54,54,54,0,0,0,0

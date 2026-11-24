@@ -1,0 +1,271 @@
+model,guidance,technique,condition,task,rep,CR,w1,w2,w3,w4,w5,provider,prompt tokens,completion tokens,reasoning tokens,cost (USD),parse_ok,bare fractions quoted,labels verified,reordered,reciprocal as returned,needs revision (CR > 0.10),revision calls,revisions used,final from revision,final CR,verdict last call,verdict final answers
+claude-haiku-4.5,unguided,CoT,CoT,delivery,1,0.0434,0.5529,0.1469,0.0823,0.2178,,Amazon Bedrock,617,402,0,0.002627,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,CoT,CoT,delivery,2,0.1971,0.5691,0.0710,0.1439,0.2161,,Amazon Bedrock,617,302,0,0.002127,y,n,,,,y,3,3,3,0.0380,yes,yes
+claude-haiku-4.5,unguided,CoT,CoT,delivery,3,0.0776,0.6481,0.1038,0.0724,0.1758,,Amazon Bedrock,617,406,0,0.002647,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,CoT,CoT,delivery,4,0.1154,0.6278,0.2128,0.0586,0.1008,,Amazon Bedrock,617,341,0,0.002322,y,n,,,,y,1,1,1,0.0519,yes,yes
+claude-haiku-4.5,unguided,CoT,CoT,delivery,5,0.0474,0.5990,0.1988,0.0675,0.1348,,Amazon Bedrock,617,380,0,0.002517,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,CoT,CoT,main,1,0.0381,0.1276,0.0547,0.2876,0.1111,0.4190,Amazon Bedrock,683,440,0,0.002883,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,CoT,CoT,main,2,0.0476,0.0817,0.0474,0.2433,0.1430,0.4846,Amazon Bedrock,683,393,0,0.002648,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,CoT,CoT,main,3,0.2285,0.0775,0.1009,0.2487,0.1110,0.4619,Amazon Bedrock,683,423,0,0.002798,y,n,,,,y,5,5,3,0.1062,no,partly
+claude-haiku-4.5,unguided,CoT,CoT,main,4,0.1146,0.1266,0.0497,0.2637,0.0889,0.4711,Amazon Bedrock,683,416,0,0.002763,y,n,,,,y,5,5,5,0.0920,partly,partly
+claude-haiku-4.5,unguided,CoT,CoT,main,5,0.1464,0.0496,0.0614,0.5022,0.1369,0.2499,Amazon Bedrock,683,405,0,0.002708,y,n,,,,y,5,5,5,0.0363,partly,partly
+claude-haiku-4.5,guided,zero-shot,guided,delivery,1,0.0244,0.6042,0.2007,0.0744,0.1207,,Amazon Bedrock,5438,1808,0,0.014478,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,delivery,2,0.0189,0.5462,0.2323,0.0838,0.1377,,Amazon Bedrock,5438,1629,0,0.013583,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,delivery,3,0.0244,0.6042,0.2007,0.0744,0.1207,,Amazon Bedrock,5438,1790,0,0.014388,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,delivery,4,0.0244,0.6042,0.2007,0.0744,0.1207,,Amazon Bedrock,5438,1339,0,0.012133,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,delivery,5,0.0244,0.6042,0.2007,0.0744,0.1207,,Amazon Bedrock,5438,1788,0,0.014378,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,main,1,0.0390,0.1451,0.0659,0.5296,0.0492,0.2103,Amazon Bedrock,5619,2525,0,0.018244,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,main,2,0.0197,0.1766,0.0738,0.4300,0.0439,0.2757,Amazon Bedrock,5619,2545,0,0.018344,y,n,y,y,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,main,3,0.0190,0.1293,0.0801,0.5231,0.0518,0.2156,Amazon Bedrock,5619,2691,0,0.019074,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,main,4,0.0311,0.1529,0.0688,0.4963,0.0461,0.2359,Amazon Bedrock,5619,3141,0,0.021324,y,n,y,y,y,n,,,,,,
+claude-haiku-4.5,guided,zero-shot,guided,main,5,0.0272,0.1255,0.0780,0.5459,0.0507,0.2000,Amazon Bedrock,5619,2886,0,0.020049,y,n,y,n,y,n,,,,,,
+claude-haiku-4.5,unguided,zero-shot,direct,delivery,1,0.1770,0.5997,0.2414,0.0810,0.0779,,Amazon Bedrock,516,104,0,0.001036,y,n,,,,y,1,1,1,0.0871,partly,partly
+claude-haiku-4.5,unguided,zero-shot,direct,delivery,2,0.0823,0.6343,0.2056,0.0550,0.1052,,Amazon Bedrock,516,106,0,0.001046,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,zero-shot,direct,delivery,3,0.0514,0.6127,0.1867,0.0624,0.1382,,Amazon Bedrock,516,106,0,0.001046,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,zero-shot,direct,delivery,4,0.0823,0.6343,0.2056,0.0550,0.1052,,Amazon Bedrock,516,106,0,0.001046,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,zero-shot,direct,delivery,5,0.0823,0.6343,0.2056,0.0550,0.1052,,Amazon Bedrock,516,106,0,0.001046,y,n,,,,n,0,,,,,
+claude-haiku-4.5,unguided,zero-shot,direct,main,1,0.1472,0.1661,0.0545,0.2054,0.1700,0.4039,Amazon Bedrock,582,176,0,0.001462,y,n,,,,y,2,2,2,0.0357,no,no
+claude-haiku-4.5,unguided,zero-shot,direct,main,2,0.1472,0.1661,0.0545,0.2054,0.1700,0.4039,Amazon Bedrock,582,176,0,0.001462,y,n,,,,y,2,2,2,0.0650,yes,yes
+claude-haiku-4.5,unguided,zero-shot,direct,main,3,0.1723,0.1741,0.0540,0.2168,0.2124,0.3427,Amazon Bedrock,582,176,0,0.001462,y,n,,,,y,1,1,1,0.0521,partly,partly
+claude-haiku-4.5,unguided,zero-shot,direct,main,4,0.1608,0.1726,0.0451,0.2104,0.2154,0.3565,Amazon Bedrock,582,176,0,0.001462,y,n,,,,y,1,1,1,0.0119,yes,yes
+claude-haiku-4.5,unguided,zero-shot,direct,main,5,0.1608,0.1726,0.0451,0.2104,0.2154,0.3565,Amazon Bedrock,582,176,0,0.001462,y,n,,,,y,1,1,1,0.0914,yes,yes
+claude-sonnet-4.6,unguided,CoT,CoT,delivery,1,0.0399,0.5383,0.0820,0.2562,0.1236,,Claude Platform on AWS,618,467,0,0.008859,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,delivery,2,0.0669,0.5292,0.0684,0.2681,0.1342,,Claude Platform on AWS,618,481,0,0.009069,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,delivery,3,0.0437,0.5376,0.0699,0.1494,0.2430,,Claude Platform on AWS,618,449,0,0.008589,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,delivery,4,0.0751,0.4962,0.2954,0.1308,0.0776,,Claude Platform on AWS,618,464,0,0.008814,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,delivery,5,0.0189,0.5462,0.0838,0.2323,0.1377,,Claude Platform on AWS,618,421,0,0.008169,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,main,1,0.0413,0.1760,0.0849,0.4646,0.0421,0.2323,Claude Platform on AWS,684,655,0,0.011877,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,main,2,0.0705,0.1391,0.0723,0.4997,0.0401,0.2488,Claude Platform on AWS,684,637,0,0.011607,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,main,3,0.0711,0.2412,0.0807,0.4935,0.0404,0.1443,Claude Platform on AWS,684,753,0,0.013347,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,CoT,CoT,main,4,0.1018,0.0941,0.1454,0.4803,0.0491,0.2311,Claude Platform on AWS,684,541,0,0.010167,y,n,,,,y,1,1,1,0.0372,yes,yes
+claude-sonnet-4.6,unguided,CoT,CoT,main,5,0.0564,0.1750,0.0898,0.4528,0.0522,0.2302,Claude Platform on AWS,684,665,0,0.012027,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,delivery,1,0.0250,0.5781,0.1336,0.0600,0.2282,,Claude Platform on AWS,5439,1207,0,0.034422,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,delivery,2,0.0250,0.5781,0.1336,0.0600,0.2282,,Claude Platform on AWS,5439,1715,0,0.042042,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,delivery,3,0.0386,0.6058,0.1288,0.0584,0.2070,,Claude Platform on AWS,5439,1447,0,0.038022,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,delivery,4,0.0386,0.6058,0.1288,0.0584,0.2070,,Claude Platform on AWS,5439,1888,0,0.044637,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,delivery,5,0.0386,0.6058,0.1288,0.0584,0.2070,,Claude Platform on AWS,5439,1393,0,0.037212,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,main,1,0.0303,0.1759,0.0811,0.4277,0.0409,0.2744,Claude Platform on AWS,5620,3149,0,0.064095,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,main,2,0.0303,0.1759,0.0811,0.4277,0.0409,0.2744,Claude Platform on AWS,5620,2159,0,0.049245,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,main,3,0.0176,0.1715,0.0755,0.4342,0.0482,0.2705,Claude Platform on AWS,5620,2334,0,0.051870,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,main,4,0.0334,0.1778,0.0821,0.4291,0.0429,0.2682,Claude Platform on AWS,5620,3208,0,0.064980,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,guided,zero-shot,guided,main,5,0.0303,0.1759,0.0811,0.4277,0.0409,0.2744,Claude Platform on AWS,5620,2640,0,0.056460,y,n,y,n,y,n,,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,delivery,1,0.0845,0.6223,0.1155,0.0603,0.2019,,Claude Platform on AWS,517,383,0,0.007296,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,delivery,2,0.0670,0.5997,0.1194,0.0623,0.2185,,Claude Platform on AWS,517,405,0,0.007626,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,delivery,3,0.0734,0.5083,0.1512,0.0752,0.2653,,Claude Platform on AWS,517,396,0,0.007491,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,delivery,4,0.0845,0.6223,0.1155,0.0603,0.2019,,Claude Platform on AWS,517,374,0,0.007161,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,delivery,5,0.0670,0.5997,0.1194,0.0623,0.2185,,Claude Platform on AWS,517,399,0,0.007536,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,main,1,0.0418,0.2410,0.0970,0.4592,0.0531,0.1497,Claude Platform on AWS,583,150,0,0.003999,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,main,2,0.0418,0.2410,0.0970,0.4592,0.0531,0.1497,Claude Platform on AWS,583,150,0,0.003999,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,main,3,0.0418,0.2410,0.0970,0.4592,0.0531,0.1497,Claude Platform on AWS,583,150,0,0.003999,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,main,4,0.0418,0.2410,0.0970,0.4592,0.0531,0.1497,Claude Platform on AWS,583,150,0,0.003999,y,n,,,,n,0,,,,,
+claude-sonnet-4.6,unguided,zero-shot,direct,main,5,0.0418,0.2410,0.0970,0.4592,0.0531,0.1497,Claude Platform on AWS,583,150,0,0.003999,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,delivery,1,0.0433,0.5650,0.1175,0.0553,0.2622,,DeepInfra,555,210,0,0.000182,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,delivery,2,0.0845,0.5437,0.3109,0.0975,0.0479,,DeepInfra,555,225,0,0.000172,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,delivery,3,0.0386,0.4600,0.1486,0.0665,0.3248,,Baidu,555,237,0,0.000174,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,delivery,4,0.0734,0.2876,0.1431,0.0645,0.5048,,Baidu,555,202,0,0.000160,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,delivery,5,0.3211,0.5902,0.0748,0.1913,0.1437,,Baidu,555,241,0,0.000144,y,n,,,,y,1,1,1,0.0632,no,no
+deepseek-v3.2,unguided,CoT,CoT,main,1,0.0618,0.2427,0.0839,0.4963,0.0448,0.1324,Baidu,603,329,0,0.000307,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,main,2,0.0285,0.2431,0.0878,0.4615,0.0569,0.1507,Baidu,603,285,0,0.000160,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,CoT,CoT,main,3,0.1114,0.1661,0.1070,0.2578,0.0690,0.4001,DeepInfra,603,321,0,0.000279,y,n,,,,y,3,3,3,0.0793,no,no
+deepseek-v3.2,unguided,CoT,CoT,main,4,0.1114,0.1661,0.1070,0.2578,0.0690,0.4001,DeepInfra,603,312,0,0.000275,y,n,,,,y,3,3,3,0.0873,no,no
+deepseek-v3.2,unguided,CoT,CoT,main,5,0.1226,0.1572,0.0891,0.2795,0.0421,0.4321,DeepInfra,603,277,0,0.000195,y,n,,,,y,3,3,3,0.0922,yes,yes
+deepseek-v3.2,guided,zero-shot,guided,delivery,1,0.0284,0.6489,0.0668,0.1770,0.1073,,Baidu,5059,598,0,0.001668,y,n,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,delivery,2,0.0284,0.6489,0.0668,0.1770,0.1073,,DigitalOcean,5059,707,0,0.002196,y,n,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,delivery,3,0.0386,0.6058,0.1288,0.0584,0.2070,,Baidu,5059,554,0,0.000391,y,n,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,delivery,4,0.0284,0.6489,0.1770,0.0668,0.1073,,DeepInfra,5059,766,0,0.001606,y,n,n,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,delivery,5,0.0284,0.6489,0.1770,0.0668,0.1073,,Baidu,5059,593,0,0.001666,y,n,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,main,1,0.0714,0.1359,0.0679,0.3696,0.0456,0.3811,DeepInfra,5240,914,0,0.001710,y,y,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,main,2,0.0496,0.1395,0.0605,0.3201,0.1004,0.3794,Baidu,5240,688,0,0.001756,y,y,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,main,3,0.0367,0.1252,0.0588,0.5190,0.0388,0.2582,Baidu,5240,879,0,0.000546,y,y,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,main,4,0.0482,0.1958,0.0835,0.4298,0.0450,0.2460,DigitalOcean,5240,893,0,0.002429,y,y,y,n,y,n,,,,,,
+deepseek-v3.2,guided,zero-shot,guided,main,5,0.0863,0.1358,0.0750,0.3686,0.0427,0.3780,DigitalOcean,5240,710,0,0.001178,y,y,y,n,y,n,,,,,,
+deepseek-v3.2,unguided,zero-shot,direct,delivery,1,0.1658,0.3107,0.0624,0.4206,0.2063,,DeepInfra,463,98,0,0.000158,y,n,,,,y,2,2,2,0.0512,no,no
+deepseek-v3.2,unguided,zero-shot,direct,delivery,2,0.0890,0.2195,0.0521,0.6194,0.1090,,DeepInfra,463,98,0,0.000108,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,zero-shot,direct,delivery,3,0.0433,0.5650,0.1175,0.0553,0.2622,,Baidu,463,96,0,0.000170,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,zero-shot,direct,delivery,4,0.0845,0.6223,0.2019,0.0603,0.1155,,Baidu,463,94,0,0.000169,y,n,,,,n,0,,,,,
+deepseek-v3.2,unguided,zero-shot,direct,delivery,5,0.2666,0.2582,0.0387,0.5848,0.1183,,DeepInfra,463,98,0,0.000158,y,n,,,,y,5,5,5,0.0000,no,no
+deepseek-v3.2,unguided,zero-shot,direct,main,1,0.2218,0.0971,0.0932,0.4457,0.0912,0.2727,DeepInfra,511,158,0,0.000193,y,n,,,,y,5,5,5,0.1410,partly,partly
+deepseek-v3.2,unguided,zero-shot,direct,main,2,0.2154,0.1020,0.0966,0.4516,0.1002,0.2497,DeepInfra,511,158,0,0.000143,y,n,,,,y,1,1,1,0.0672,partly,partly
+deepseek-v3.2,unguided,zero-shot,direct,main,3,0.3621,0.0692,0.2239,0.3967,0.0320,0.2781,DigitalOcean,511,156,0,0.000303,y,n,,,,y,5,5,3,0.1296,no,partly
+deepseek-v3.2,unguided,zero-shot,direct,main,4,0.3266,0.1901,0.1476,0.4207,0.0902,0.1513,DigitalOcean,511,156,0,0.000303,y,n,,,,y,2,2,2,0.0385,no,no
+deepseek-v3.2,unguided,zero-shot,direct,main,5,0.2154,0.1020,0.0966,0.4516,0.1002,0.2497,Baidu,511,158,0,0.000209,y,n,,,,y,1,1,1,0.0672,partly,partly
+gemini-3.1-flash-lite,unguided,CoT,CoT,delivery,1,0.1343,0.5578,0.2699,0.1023,0.0701,,Google,567,300,0,0.000592,y,n,,,,y,1,1,1,0.0687,yes,yes
+gemini-3.1-flash-lite,unguided,CoT,CoT,delivery,2,0.0603,0.5426,0.2359,0.1221,0.0995,,Google,567,286,0,0.000571,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,delivery,3,0.0288,0.5738,0.2388,0.0563,0.1310,,Google,567,326,0,0.000631,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,delivery,4,0.0189,0.5462,0.2323,0.0838,0.1377,,Google,567,284,0,0.000568,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,delivery,5,0.0054,0.4829,0.1570,0.0882,0.2720,,Google,567,313,0,0.000611,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,main,1,0.0152,0.1599,0.0973,0.4185,0.0618,0.2625,Google,628,302,0,0.000610,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,main,2,0.2954,0.1715,0.1060,0.3919,0.1621,0.1686,Google,628,284,0,0.000583,y,n,,,,y,1,1,1,0.0150,no,no
+gemini-3.1-flash-lite,unguided,CoT,CoT,main,3,0.0177,0.1655,0.1079,0.4246,0.0668,0.2352,Google,628,307,0,0.000617,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,main,4,0.0388,0.1592,0.0965,0.3235,0.0613,0.3595,Google,628,299,0,0.000606,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,CoT,CoT,main,5,0.1512,0.2096,0.1074,0.4350,0.1243,0.1237,Google,628,292,0,0.000595,y,n,,,,y,1,1,1,0.0210,yes,yes
+gemini-3.1-flash-lite,guided,zero-shot,guided,delivery,1,0.0168,0.6143,0.1186,0.0699,0.1972,,Google,4366,365,0,0.001639,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,delivery,2,0.0071,0.5871,0.1228,0.0722,0.2179,,Google,4366,346,0,0.001610,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,delivery,3,0.0078,0.5576,0.1797,0.0945,0.1682,,Google,4366,323,0,0.000662,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,delivery,4,0.0071,0.5871,0.1228,0.0722,0.2179,,Google,4366,422,0,0.001724,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,delivery,5,0.0078,0.5576,0.1797,0.0945,0.1682,,Google,4366,333,0,0.000677,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,main,1,0.0300,0.1751,0.0808,0.4279,0.0404,0.2758,Google,4536,480,0,0.001854,y,n,y,n,n,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,main,2,0.0300,0.1751,0.0808,0.4279,0.0404,0.2758,Google,4536,429,0,0.000863,y,n,y,n,n,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,main,3,0.0303,0.1759,0.0811,0.4276,0.0409,0.2745,Google,4536,456,0,0.000904,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,main,4,0.0300,0.1751,0.0808,0.4279,0.0404,0.2758,Google,4536,514,0,0.001905,y,n,y,n,n,n,,,,,,
+gemini-3.1-flash-lite,guided,zero-shot,guided,main,5,0.0197,0.1766,0.0738,0.4300,0.0439,0.2757,Google,4536,511,0,0.000986,y,n,y,n,y,n,,,,,,
+gemini-3.1-flash-lite,unguided,zero-shot,direct,delivery,1,1.1946,0.2668,0.1150,0.3655,0.2527,,Google,469,82,0,0.000240,y,n,,,,y,2,2,2,0.0923,no,no
+gemini-3.1-flash-lite,unguided,zero-shot,direct,delivery,2,1.1946,0.2668,0.1150,0.3655,0.2527,,Google,469,82,0,0.000240,y,n,,,,y,2,2,2,0.0855,no,no
+gemini-3.1-flash-lite,unguided,zero-shot,direct,delivery,3,1.1531,0.2492,0.1319,0.4049,0.2140,,Google,469,150,0,0.000342,y,n,,,,y,2,2,2,0.0767,no,no
+gemini-3.1-flash-lite,unguided,zero-shot,direct,delivery,4,0.1343,0.1023,0.0701,0.5578,0.2699,,Google,469,152,0,0.000345,y,n,,,,y,1,1,1,0.0038,partly,partly
+gemini-3.1-flash-lite,unguided,zero-shot,direct,delivery,5,1.1531,0.2492,0.1319,0.4049,0.2140,,Google,469,82,0,0.000240,y,n,,,,y,1,1,1,0.0908,no,no
+gemini-3.1-flash-lite,unguided,zero-shot,direct,main,1,0.0701,0.1205,0.0745,0.3704,0.0570,0.3775,Google,530,245,0,0.000500,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,zero-shot,direct,main,2,0.0152,0.1574,0.0918,0.4312,0.0613,0.2583,Google,530,135,0,0.000335,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,zero-shot,direct,main,3,0.0675,0.1195,0.0705,0.3650,0.0570,0.3880,Google,530,137,0,0.000338,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,zero-shot,direct,main,4,0.0701,0.1205,0.0745,0.3704,0.0570,0.3775,Google,530,245,0,0.000500,y,n,,,,n,0,,,,,
+gemini-3.1-flash-lite,unguided,zero-shot,direct,main,5,0.0927,0.1447,0.0745,0.3840,0.0560,0.3408,Google,530,245,0,0.000500,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,delivery,1,0.0652,0.6618,0.0994,0.0531,0.1857,,Amazon Bedrock,553,253,0,0.001363,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,delivery,2,0.0770,0.5722,0.1283,0.0740,0.2255,,Z.AI,554,298,0,0.001508,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,delivery,3,0.0668,0.5352,0.0706,0.2275,0.1667,,Z.AI,554,294,0,0.001085,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,delivery,4,0.0878,0.0981,0.1133,0.5331,0.2555,,Baidu,554,307,0,0.001075,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,delivery,5,0.1030,0.5893,0.2335,0.1191,0.0581,,Amazon Bedrock,553,324,0,0.001590,y,n,,,,y,1,1,1,0.0890,yes,yes
+glm-5,unguided,CoT,CoT,main,1,0.0328,0.2256,0.0676,0.5096,0.0561,0.1412,Amazon Bedrock,608,383,0,0.001834,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,main,2,0.1192,0.2107,0.0916,0.5327,0.0394,0.1257,Amazon Bedrock,608,396,0,0.001875,y,n,,,,y,1,1,1,0.0876,yes,yes
+glm-5,unguided,CoT,CoT,main,3,0.0446,0.2352,0.0956,0.4772,0.0526,0.1395,Amazon Bedrock,608,324,0,0.001645,y,n,,,,n,0,,,,,
+glm-5,unguided,CoT,CoT,main,4,0.4129,0.2669,0.2781,0.2690,0.0399,0.1461,Amazon Bedrock,608,460,0,0.002080,y,n,,,,y,1,1,1,0.0685,no,no
+glm-5,unguided,CoT,CoT,main,5,0.0618,0.2427,0.0839,0.4963,0.0448,0.1324,Baidu,609,430,0,0.001389,y,n,,,,n,0,,,,,
+glm-5,guided,zero-shot,guided,delivery,1,0.0284,0.6489,0.0668,0.1770,0.1073,,Baidu,4483,677,0,0.004655,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,delivery,2,0.0189,0.5462,0.1377,0.2323,0.0838,,Baidu,4483,417,0,0.001562,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,delivery,3,0.0115,0.4673,0.1601,0.2772,0.0954,,Z.AI,4483,1359,0,0.008832,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,delivery,4,0.0189,0.5462,0.2323,0.0838,0.1377,,SiliconFlow,4483,821,0,0.006352,y,n,n,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,delivery,5,0.0189,0.5462,0.0838,0.2323,0.1377,,Z.AI,4483,752,0,0.003408,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,main,1,0.0292,0.1726,0.0794,0.4244,0.0381,0.2856,Baidu,4643,739,0,0.004905,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,main,2,0.0160,0.1371,0.0526,0.5080,0.0815,0.2207,Novita,4643,681,0,0.006140,y,n,n,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,main,3,0.0303,0.1759,0.0811,0.4277,0.0409,0.2744,Z.AI,4643,652,0,0.003043,y,n,y,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,main,4,0.0171,0.1745,0.0807,0.4378,0.0486,0.2584,StreamLake,4643,1130,0,0.004955,y,n,n,n,y,n,,,,,,
+glm-5,guided,zero-shot,guided,main,5,0.0321,0.1452,0.0597,0.5063,0.0433,0.2455,Baidu,4643,690,0,0.002196,y,n,y,n,y,n,,,,,,
+glm-5,unguided,zero-shot,direct,delivery,1,0.0433,0.5650,0.1175,0.0553,0.2622,,Amazon Bedrock,461,85,0,0.000733,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,delivery,2,0.0630,0.4572,0.1646,0.0664,0.3117,,Amazon Bedrock,461,85,0,0.000733,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,delivery,3,0.4085,0.3164,0.0559,0.3241,0.3036,,Amazon Bedrock,461,89,0,0.000746,y,n,,,,y,1,1,1,0.0734,no,no
+glm-5,unguided,zero-shot,direct,delivery,4,0.0386,0.0665,0.1486,0.3248,0.4600,,Amazon Bedrock,461,93,0,0.000759,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,delivery,5,0.0518,0.5710,0.1237,0.0647,0.2406,,Amazon Bedrock,461,85,0,0.000733,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,main,1,0.1118,0.2320,0.1832,0.4123,0.0461,0.1264,Amazon Bedrock,516,135,0,0.000948,y,n,,,,y,3,3,3,0.0622,yes,yes
+glm-5,unguided,zero-shot,direct,main,2,0.0873,0.0761,0.1587,0.2805,0.0458,0.4389,Baidu,517,142,0,0.000680,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,main,3,0.2640,0.1846,0.0837,0.2467,0.0345,0.4505,Amazon Bedrock,516,139,0,0.000961,y,n,,,,y,5,5,5,0.1161,partly,partly
+glm-5,unguided,zero-shot,direct,main,4,0.0703,0.2188,0.0588,0.4498,0.0863,0.1863,Amazon Bedrock,516,139,0,0.000961,y,n,,,,n,0,,,,,
+glm-5,unguided,zero-shot,direct,main,5,0.1625,0.2221,0.0502,0.4309,0.1148,0.1820,Amazon Bedrock,516,139,0,0.000961,y,n,,,,y,1,1,1,0.0703,yes,yes
+gpt-4o,unguided,CoT,CoT,delivery,1,0.2337,0.5277,0.0948,0.1215,0.2559,,OpenAI,552,270,0,0.004080,y,n,,,,y,1,1,1,0.0071,yes,yes
+gpt-4o,unguided,CoT,CoT,delivery,2,0.1233,0.4737,0.1027,0.1656,0.2580,,OpenAI,552,266,0,0.004040,y,n,,,,y,2,2,2,0.0458,partly,partly
+gpt-4o,unguided,CoT,CoT,delivery,3,0.1774,0.5181,0.0812,0.1784,0.2222,,OpenAI,552,288,0,0.004260,y,n,,,,y,5,5,5,0.0559,no,no
+gpt-4o,unguided,CoT,CoT,delivery,4,0.2094,0.5510,0.0771,0.2455,0.1265,,OpenAI,552,244,0,0.003820,y,n,,,,y,1,1,1,0.0356,no,no
+gpt-4o,unguided,CoT,CoT,delivery,5,0.2655,0.5382,0.0924,0.1240,0.2455,,OpenAI,552,233,0,0.003710,y,n,,,,y,1,1,1,0.0126,no,no
+gpt-4o,unguided,CoT,CoT,main,1,0.0793,0.4219,0.1004,0.1574,0.0514,0.2689,OpenAI,609,317,0,0.004692,y,n,,,,n,0,,,,,
+gpt-4o,unguided,CoT,CoT,main,2,0.3365,0.1806,0.1961,0.3526,0.1240,0.1466,OpenAI,609,348,0,0.005003,y,n,,,,y,5,5,2,0.1114,no,no
+gpt-4o,unguided,CoT,CoT,main,3,0.7627,0.1952,0.2279,0.2379,0.1863,0.1528,OpenAI,609,358,0,0.005103,y,n,,,,y,5,5,3,0.1787,no,no
+gpt-4o,unguided,CoT,CoT,main,4,0.0818,0.4378,0.0522,0.2267,0.1208,0.1625,OpenAI,609,336,0,0.004882,y,n,,,,n,0,,,,,
+gpt-4o,unguided,CoT,CoT,main,5,0.0800,0.4611,0.1496,0.2084,0.0938,0.0871,OpenAI,609,345,0,0.004973,y,n,,,,n,0,,,,,
+gpt-4o,guided,zero-shot,guided,delivery,1,0.0189,0.5462,0.2323,0.0838,0.1377,,OpenAI,4166,288,0,0.013295,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,delivery,2,0.0284,0.6489,0.1770,0.0668,0.1073,,OpenAI,4166,395,0,0.009405,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,delivery,3,0.0168,0.6143,0.1972,0.0699,0.1186,,OpenAI,4166,430,0,0.009755,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,delivery,4,0.0284,0.6489,0.1770,0.0668,0.1073,,OpenAI,4166,410,0,0.014515,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,delivery,5,0.0357,0.6192,0.1873,0.0689,0.1247,,OpenAI,4166,337,0,0.008825,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,main,1,0.0451,0.1819,0.0843,0.4234,0.0478,0.2627,OpenAI,4342,470,0,0.015555,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,main,2,0.0303,0.1759,0.0811,0.4276,0.0409,0.2745,OpenAI,4342,482,0,0.010395,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,main,3,0.0475,0.1594,0.0905,0.4947,0.0440,0.2113,OpenAI,4342,474,0,0.010315,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,main,4,0.0459,0.1551,0.0881,0.4939,0.0400,0.2230,OpenAI,4342,389,0,0.014745,y,y,y,n,y,n,,,,,,
+gpt-4o,guided,zero-shot,guided,main,5,0.0302,0.1436,0.0835,0.5026,0.0497,0.2205,OpenAI,4342,600,0,0.011575,y,y,y,n,y,n,,,,,,
+gpt-4o,unguided,zero-shot,direct,delivery,1,0.5681,0.2630,0.0786,0.3637,0.2947,,OpenAI,460,88,0,0.002030,y,n,,,,y,5,5,5,0.2250,partly,partly
+gpt-4o,unguided,zero-shot,direct,delivery,2,0.8967,0.3117,0.0662,0.3373,0.2848,,OpenAI,460,88,0,0.002030,y,n,,,,y,4,4,4,0.0962,no,no
+gpt-4o,unguided,zero-shot,direct,delivery,3,0.7605,0.3094,0.0698,0.3645,0.2563,,OpenAI,460,88,0,0.002030,y,n,,,,y,5,5,5,0.1928,no,no
+gpt-4o,unguided,zero-shot,direct,delivery,4,0.5469,0.2294,0.0817,0.3310,0.3579,,OpenAI,460,88,0,0.002030,y,n,,,,y,1,1,1,0.0220,no,no
+gpt-4o,unguided,zero-shot,direct,delivery,5,0.6226,0.3081,0.0626,0.3943,0.2351,,OpenAI,460,88,0,0.002030,y,n,,,,y,5,5,5,0.0460,partly,partly
+gpt-4o,unguided,zero-shot,direct,main,1,0.1292,0.0611,0.0795,0.2523,0.2050,0.4021,OpenAI,517,161,0,0.002903,y,n,,,,y,4,4,4,0.0798,yes,yes
+gpt-4o,unguided,zero-shot,direct,main,2,0.4898,0.1909,0.0314,0.2172,0.1839,0.3765,OpenAI,517,144,0,0.002733,y,n,,,,y,3,3,3,0.0979,partly,partly
+gpt-4o,unguided,zero-shot,direct,main,3,0.6082,0.2922,0.0398,0.2692,0.1966,0.2023,OpenAI,517,142,0,0.002713,y,n,,,,y,4,4,4,0.0804,no,no
+gpt-4o,unguided,zero-shot,direct,main,4,0.6545,0.1999,0.0376,0.1755,0.2233,0.3637,OpenAI,517,144,0,0.002733,y,n,,,,y,5,5,5,0.0893,no,no
+gpt-4o,unguided,zero-shot,direct,main,5,0.3089,0.2371,0.0434,0.3357,0.1039,0.2799,OpenAI,517,140,0,0.002693,y,n,,,,y,5,5,5,0.0859,partly,partly
+gpt-5.2,unguided,CoT,CoT,delivery,1,0.1790,0.6472,0.0579,0.1954,0.0995,,OpenAI,551,294,0,0.005080,y,n,,,,y,1,1,1,0.0126,no,no
+gpt-5.2,unguided,CoT,CoT,delivery,2,0.0433,0.0553,0.1175,0.5650,0.2622,,OpenAI,551,285,0,0.004954,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,delivery,3,0.1441,0.2482,0.0496,0.6078,0.0944,,OpenAI,551,264,0,0.004660,y,n,,,,y,4,4,4,0.0294,yes,yes
+gpt-5.2,unguided,CoT,CoT,delivery,4,0.0734,0.5439,0.0636,0.2706,0.1219,,OpenAI,551,294,0,0.005080,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,delivery,5,0.0876,0.6320,0.0517,0.2138,0.1025,,OpenAI,551,247,0,0.004422,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,main,1,0.0804,0.1406,0.0361,0.4988,0.0613,0.2632,OpenAI,608,400,0,0.006664,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,main,2,0.0986,0.1395,0.0856,0.5065,0.0369,0.2316,OpenAI,608,407,0,0.006762,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,main,3,0.0694,0.1391,0.0362,0.4897,0.0785,0.2565,OpenAI,608,305,0,0.005334,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,CoT,CoT,main,4,0.1759,0.1526,0.0651,0.5307,0.0323,0.2194,OpenAI,608,426,0,0.007028,y,n,,,,y,5,5,5,0.0737,yes,yes
+gpt-5.2,unguided,CoT,CoT,main,5,0.0671,0.1324,0.0353,0.3190,0.0752,0.4380,OpenAI,608,416,0,0.006888,y,n,,,,n,0,,,,,
+gpt-5.2,guided,zero-shot,guided,delivery,1,0.0189,0.5462,0.0838,0.2323,0.1377,,OpenAI,4165,592,0,0.015577,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,delivery,2,0.0189,0.5462,0.0838,0.2323,0.1377,,OpenAI,4165,606,0,0.009926,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,delivery,3,0.0189,0.5462,0.0838,0.2323,0.1377,,OpenAI,4165,666,0,0.010766,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,delivery,4,0.0189,0.5462,0.0838,0.2323,0.1377,,OpenAI,4165,642,0,0.010430,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,delivery,5,0.0189,0.5462,0.0838,0.2323,0.1377,,OpenAI,4165,626,0,0.010206,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,main,1,0.0843,0.1265,0.0557,0.5440,0.0347,0.2392,OpenAI,4341,1388,0,0.027029,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,main,2,0.1230,0.1249,0.0534,0.5839,0.0378,0.1999,OpenAI,4341,835,0,0.013440,y,n,y,n,y,y,,,,,,
+gpt-5.2,guided,zero-shot,guided,main,3,0.0965,0.1579,0.0569,0.4990,0.0330,0.2533,OpenAI,4341,1243,0,0.019152,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,main,4,0.0685,0.1713,0.0623,0.4820,0.0537,0.2307,OpenAI,4341,921,0,0.014644,y,n,y,n,y,n,,,,,,
+gpt-5.2,guided,zero-shot,guided,main,5,0.1147,0.1062,0.0492,0.5539,0.0302,0.2605,OpenAI,4341,836,0,0.013454,y,n,y,n,y,y,,,,,,
+gpt-5.2,unguided,zero-shot,direct,delivery,1,0.0786,0.6320,0.0747,0.0952,0.1980,,OpenAI,459,63,0,0.001685,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,zero-shot,direct,delivery,2,0.1835,0.3159,0.1117,0.4963,0.0761,,OpenAI,459,61,0,0.001657,y,n,,,,y,5,5,2,0.1756,no,no
+gpt-5.2,unguided,zero-shot,direct,delivery,3,0.2163,0.2621,0.0822,0.5137,0.1419,,OpenAI,459,63,0,0.001685,y,n,,,,y,5,5,5,0.1498,no,no
+gpt-5.2,unguided,zero-shot,direct,delivery,4,0.0545,0.5406,0.1174,0.2535,0.0885,,OpenAI,459,59,0,0.001629,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,zero-shot,direct,delivery,5,0.0963,0.5767,0.0557,0.1741,0.1935,,OpenAI,459,63,0,0.001685,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,zero-shot,direct,main,1,0.1226,0.1519,0.0930,0.2976,0.0601,0.3974,OpenAI,516,101,0,0.002317,y,n,,,,y,2,2,2,0.0654,yes,yes
+gpt-5.2,unguided,zero-shot,direct,main,2,0.1528,0.1353,0.0884,0.3282,0.0577,0.3904,OpenAI,516,101,0,0.002317,y,n,,,,y,5,5,0,0.1528,no,
+gpt-5.2,unguided,zero-shot,direct,main,3,0.0192,0.1597,0.0659,0.4333,0.0932,0.2480,OpenAI,516,101,0,0.002317,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,zero-shot,direct,main,4,0.0915,0.1983,0.0670,0.3098,0.0795,0.3453,OpenAI,516,103,0,0.002345,y,n,,,,n,0,,,,,
+gpt-5.2,unguided,zero-shot,direct,main,5,0.0724,0.1699,0.0558,0.3315,0.0940,0.3488,OpenAI,516,103,0,0.002345,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,delivery,1,0.0668,0.5447,0.0688,0.1579,0.2286,,DigitalOcean,564,744,559,0.001054,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,delivery,2,0.0668,0.5447,0.0688,0.1579,0.2286,,DigitalOcean,564,727,545,0.000907,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,delivery,3,0.0668,0.5447,0.0688,0.1579,0.2286,,DigitalOcean,564,688,496,0.000895,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,delivery,4,0.0189,0.5462,0.0838,0.2323,0.1377,,DigitalOcean,564,1181,1011,0.001452,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,delivery,5,0.0437,0.5376,0.0699,0.2430,0.1494,,DigitalOcean,564,783,566,0.000974,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,main,1,0.5681,0.2081,0.1169,0.1169,0.2071,0.3510,DigitalOcean,615,871,530,0.001118,y,n,,,,y,5,5,5,0.1481,no,no
+minimax-m2.5,unguided,CoT,CoT,main,2,0.0797,0.2456,0.0568,0.4956,0.0642,0.1379,DigitalOcean,615,1300,969,0.001599,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,main,3,0.1082,0.3874,0.2344,0.1659,0.1120,0.1003,DigitalOcean,615,1341,1048,0.001648,y,n,,,,y,2,2,2,0.0655,no,no
+minimax-m2.5,unguided,CoT,CoT,main,4,0.0925,0.0626,0.2456,0.1742,0.1209,0.3968,DigitalOcean,615,861,568,0.001106,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,CoT,CoT,main,5,0.0784,0.2498,0.0967,0.4702,0.0449,0.1384,DigitalOcean,615,1065,784,0.001317,y,n,,,,n,0,,,,,
+minimax-m2.5,guided,zero-shot,guided,delivery,1,0.0399,0.6064,0.1993,0.0790,0.1154,,DigitalOcean,4889,1159,851,0.002808,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,delivery,2,0.0395,0.7174,0.0931,0.0613,0.1282,,DigitalOcean,4889,1167,737,0.001696,y,y,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,delivery,3,0.0415,0.6505,0.1759,0.1033,0.0703,,DigitalOcean,4889,1027,620,0.001528,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,delivery,4,0.0189,0.5462,0.0837,0.2324,0.1377,,DigitalOcean,4889,949,602,0.002556,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,delivery,5,0.0356,0.6212,0.2300,0.0551,0.0938,,DigitalOcean,4889,1120,608,0.001639,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,main,1,0.0276,0.1650,0.0725,0.4513,0.0433,0.2680,DigitalOcean,5068,1545,1012,0.003374,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,main,2,0.0546,0.1354,0.0515,0.4634,0.0328,0.3169,DigitalOcean,5068,1493,783,0.002099,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,main,3,0.0322,0.1581,0.0772,0.4898,0.0467,0.2281,DigitalOcean,5068,1909,650,0.002598,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,main,4,0.0610,0.1331,0.0621,0.5036,0.0494,0.2517,DigitalOcean,5068,1175,641,0.002930,y,n,y,n,y,n,,,,,,
+minimax-m2.5,guided,zero-shot,guided,main,5,0.0218,0.1291,0.0528,0.4448,0.0810,0.2923,DigitalOcean,5068,1663,522,0.002303,y,n,y,n,y,n,,,,,,
+minimax-m2.5,unguided,zero-shot,direct,delivery,1,0.3446,0.6694,0.0507,0.0706,0.2092,,DigitalOcean,471,570,488,0.000818,y,n,,,,y,3,3,3,0.0497,no,no
+minimax-m2.5,unguided,zero-shot,direct,delivery,2,0.1835,0.1279,0.0754,0.3348,0.4619,,DigitalOcean,471,720,640,0.000894,y,n,,,,y,2,2,2,0.0512,no,no
+minimax-m2.5,unguided,zero-shot,direct,delivery,3,0.0609,0.6599,0.1948,0.0487,0.0965,,DigitalOcean,471,578,507,0.000724,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,zero-shot,direct,delivery,4,0.9386,0.5591,0.1256,0.1295,0.1858,,DigitalOcean,471,625,548,0.000791,y,n,,,,y,5,5,1,0.1797,partly,no
+minimax-m2.5,unguided,zero-shot,direct,delivery,5,0.0623,0.6659,0.1648,0.0501,0.1193,,DigitalOcean,471,1013,950,0.001246,y,n,,,,n,0,,,,,
+minimax-m2.5,unguided,zero-shot,direct,main,1,0.2929,0.1708,0.1307,0.2603,0.0976,0.3405,DigitalOcean,522,963,856,0.001312,y,n,,,,y,1,1,1,0.0933,partly,partly
+minimax-m2.5,unguided,zero-shot,direct,main,2,0.1173,0.1405,0.0459,0.4324,0.1708,0.2105,DigitalOcean,522,736,621,0.000917,y,n,,,,y,4,4,4,0.0982,partly,partly
+minimax-m2.5,unguided,zero-shot,direct,main,3,0.2030,0.1154,0.0440,0.2212,0.0702,0.5492,DigitalOcean,522,613,491,0.000769,y,n,,,,y,5,5,4,0.1069,no,partly
+minimax-m2.5,unguided,zero-shot,direct,main,4,0.4190,0.1469,0.0352,0.1973,0.2170,0.4035,DigitalOcean,522,904,792,0.001119,y,n,,,,y,5,5,5,0.1317,no,no
+minimax-m2.5,unguided,zero-shot,direct,main,5,1.0032,0.1456,0.1788,0.1989,0.1880,0.2888,DigitalOcean,522,871,754,0.001079,y,n,,,,y,5,5,3,0.1393,no,no
+qwen3.5-397b,unguided,CoT,CoT,delivery,1,0.1128,0.6272,0.0484,0.2127,0.1117,,Parasail,593,775,0,0.003086,y,n,,,,y,2,2,2,0.0038,yes,yes
+qwen3.5-397b,unguided,CoT,CoT,delivery,2,0.1451,0.6490,0.2112,0.0835,0.0563,,Parasail,593,319,0,0.001445,y,n,,,,y,1,1,1,0.0038,yes,yes
+qwen3.5-397b,unguided,CoT,CoT,delivery,3,0.0632,0.6574,0.0942,0.0457,0.2027,,Parasail,593,273,0,0.001279,y,n,,,,n,0,,,,,
+qwen3.5-397b,unguided,CoT,CoT,delivery,4,0.1561,0.6304,0.1820,0.1214,0.0662,,Parasail,593,206,0,0.001038,y,n,,,,y,1,1,1,0.0939,partly,partly
+qwen3.5-397b,unguided,CoT,CoT,delivery,5,0.1451,0.6490,0.2112,0.0835,0.0563,,Parasail,593,319,0,0.001445,y,n,,,,y,1,1,1,0.0978,no,no
+qwen3.5-397b,unguided,CoT,CoT,main,1,0.1142,0.1045,0.0334,0.2246,0.0938,0.5436,Alibaba,649,335,0,0.001037,y,n,,,,y,1,1,1,0.0800,yes,yes
+qwen3.5-397b,unguided,CoT,CoT,main,2,1.1142,0.1204,0.1007,0.2287,0.2483,0.3019,Parasail,649,366,0,0.001642,y,n,,,,y,1,1,1,0.0761,no,no
+qwen3.5-397b,unguided,CoT,CoT,main,3,0.1714,0.0543,0.0889,0.2585,0.0322,0.5660,Parasail,649,360,0,0.001620,y,n,,,,y,4,4,4,0.0090,yes,yes
+qwen3.5-397b,unguided,CoT,CoT,main,4,1.5878,0.1358,0.0931,0.2382,0.2278,0.3051,Parasail,649,397,0,0.001754,y,n,,,,y,2,2,2,0.0586,no,no
+qwen3.5-397b,unguided,CoT,CoT,main,5,1.1676,0.1225,0.1010,0.2555,0.2641,0.2569,Alibaba,649,364,0,0.001105,y,n,,,,y,2,2,2,0.0530,no,no
+qwen3.5-397b,guided,zero-shot,guided,delivery,1,0.0284,0.6489,0.1770,0.0668,0.1073,,Parasail,4384,655,0,0.004550,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,delivery,2,0.0284,0.6489,0.1770,0.0668,0.1073,,StreamLake,4384,414,0,0.004121,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,delivery,3,0.0386,0.6058,0.1288,0.0584,0.2070,,StreamLake,4384,609,0,0.004823,y,n,y,n,y,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,delivery,4,0.0191,0.5461,0.0835,0.2328,0.1376,,Parasail,4384,655,0,0.004550,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,delivery,5,0.0453,0.6643,0.1047,0.0466,0.1843,,StreamLake,4384,645,0,0.004952,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,main,1,0.0778,0.1290,0.0716,0.5264,0.0409,0.2321,Parasail,4547,738,0,0.004930,y,y,y,n,y,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,main,2,0.0413,0.1264,0.0593,0.5138,0.0403,0.2602,Alibaba,4547,755,0,0.003540,y,y,y,n,y,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,main,3,0.0315,0.1707,0.0834,0.4316,0.0449,0.2693,Parasail,4547,504,0,0.004088,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,main,4,0.0315,0.1707,0.0834,0.4316,0.0449,0.2693,Alibaba,4547,734,0,0.003491,y,n,y,n,n,n,,,,,,
+qwen3.5-397b,guided,zero-shot,guided,main,5,0.0570,0.1262,0.0658,0.5106,0.0377,0.2596,Parasail,4547,756,0,0.004995,y,y,y,n,y,n,,,,,,
+qwen3.5-397b,unguided,zero-shot,direct,delivery,1,0.1561,0.6304,0.1820,0.1214,0.0662,,Parasail,495,77,0,0.000525,y,n,,,,y,2,2,2,0.0652,yes,yes
+qwen3.5-397b,unguided,zero-shot,direct,delivery,2,0.4024,0.5912,0.0678,0.0875,0.2535,,StreamLake,495,83,0,0.000596,y,n,,,,y,2,2,2,0.0874,partly,partly
+qwen3.5-397b,unguided,zero-shot,direct,delivery,3,0.0786,0.6386,0.1741,0.0566,0.1307,,Parasail,495,99,0,0.000604,y,n,,,,n,0,,,,,
+qwen3.5-397b,unguided,zero-shot,direct,delivery,4,0.1170,0.6541,0.1888,0.0955,0.0615,,Alibaba,495,96,0,0.000418,y,n,,,,y,2,2,2,0.0946,partly,partly
+qwen3.5-397b,unguided,zero-shot,direct,delivery,5,0.0519,0.6439,0.1754,0.0607,0.1200,,Parasail,495,79,0,0.000532,y,n,,,,n,0,,,,,
+qwen3.5-397b,unguided,zero-shot,direct,main,1,0.5477,0.2312,0.1010,0.2725,0.1102,0.2850,StreamLake,551,138,0,0.000827,y,n,,,,y,5,5,4,0.1145,no,no
+qwen3.5-397b,unguided,zero-shot,direct,main,2,0.1714,0.1349,0.0858,0.2857,0.0320,0.4616,StreamLake,551,138,0,0.000827,y,n,,,,y,5,5,0,0.1714,yes,
+qwen3.5-397b,unguided,zero-shot,direct,main,3,0.2262,0.2268,0.1018,0.3621,0.0407,0.2686,StreamLake,551,136,0,0.000820,y,n,,,,y,5,5,2,0.1831,no,no
+qwen3.5-397b,unguided,zero-shot,direct,main,4,0.2692,0.2077,0.0738,0.3615,0.0367,0.3203,Parasail,551,164,0,0.000866,y,n,,,,y,5,5,1,0.1759,partly,partly
+qwen3.5-397b,unguided,zero-shot,direct,main,5,0.2692,0.2077,0.0738,0.3615,0.0367,0.3203,Parasail,551,136,0,0.000765,y,n,,,,y,1,1,1,0.0984,partly,partly

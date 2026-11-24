@@ -1,0 +1,72 @@
+{
+  "_comment": "The study's problem. The lean and cot prompts built from this file are byte-identical to the prompts stored in results/raw/calls.jsonl (checked by python -m ahp_bench.audit). Do not edit; copy it to start a new problem.",
+  "schema_version": 1,
+  "name": "supplier_selection",
+  "title": "Supplier selection (procurement KPIs)",
+  "goal": "supplier evaluation",
+  "role": "You are a procurement professional with experience in supplier evaluation.",
+  "criteria": [
+    "Delivery and Operational Performance",
+    "Financial Performance",
+    "Quality Performance",
+    "Volume and Logistics",
+    "Compliance and Reliability"
+  ],
+  "short": ["Delivery", "Financial", "Quality", "Volume", "Compliance"],
+  "groups": [
+    {
+      "task": "delivery",
+      "parent": "Delivery and Operational Performance",
+      "criteria": [
+        "Delivered Orders",
+        "Pending Orders",
+        "Cancelled Orders",
+        "Partially Delivered Orders"
+      ],
+      "short": ["D1 Delivered", "D2 Pending", "D3 Cancelled", "D4 Partially delivered"]
+    }
+  ],
+  "question_order": {
+    "_comment": "1-based [left, right] criterion indices per question, in the order of the questions the experts were asked.",
+    "main": [[1, 2], [1, 3], [1, 4], [1, 5], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 5]],
+    "delivery": [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
+  },
+  "guided_condition": "study",
+  "_guided_comment": "Only the study problem has the 'guided' condition (the original thesis prompts in prompts/guided, which contain priority hints and the performance data). It is unavailable for any other problem.",
+  "ranking": {
+    "_comment": "Performance matrix of data/performance_matrix.json (derived from the Kaggle Procurement KPI Analysis Dataset, see DATA_PROVENANCE.md). Rows = alternatives, columns = indicators.",
+    "alternatives": ["Alpha_Inc", "Beta_Supplies", "Delta_Logistics", "Epsilon_Group", "Gamma_Co"],
+    "indicators": [
+      {"code": "D1", "name": "Delivered Orders", "unit": "orders (count)", "direction": "benefit"},
+      {"code": "D2", "name": "Pending Orders", "unit": "orders (count)", "direction": "cost"},
+      {"code": "D3", "name": "Cancelled Orders", "unit": "orders (count)", "direction": "cost"},
+      {"code": "D4", "name": "Partially Delivered Orders", "unit": "orders (count)", "direction": "cost"},
+      {"code": "F", "name": "Average Discount Rate", "unit": "rate", "direction": "benefit"},
+      {"code": "Q", "name": "Defective Rate", "unit": "rate", "direction": "cost"},
+      {"code": "V", "name": "Average Items per Order", "unit": "items per order", "direction": "benefit"},
+      {"code": "C", "name": "Non-Compliance Rate", "unit": "rate", "direction": "cost"}
+    ],
+    "criterion_indicator": {
+      "Delivered Orders": "D1",
+      "Pending Orders": "D2",
+      "Cancelled Orders": "D3",
+      "Partially Delivered Orders": "D4",
+      "Financial Performance": "F",
+      "Quality Performance": "Q",
+      "Volume and Logistics": "V",
+      "Compliance and Reliability": "C"
+    },
+    "matrix": [
+      [107.0, 11.0, 13.0, 10.0, 8.21, 1.81, 1066.77, 6.38],
+      [110.0, 19.0, 14.0, 13.0, 7.83, 7.67, 1157.15, 24.36],
+      [120.0, 17.0, 16.0, 18.0, 7.81, 10.83, 1062.29, 39.18],
+      [120.0, 18.0, 14.0, 14.0, 8.04, 2.6, 1084.66, 1.81],
+      [103.0, 16.0, 6.0, 18.0, 7.98, 4.45, 1104.31, 13.99]
+    ],
+    "transform": {
+      "type": "row_share_percent",
+      "indicators": ["D1", "D2", "D3", "D4"],
+      "note": "The four delivery counts are replaced by their percentage of each supplier's order total (rates), so that suppliers with more orders are not favoured."
+    }
+  }
+}

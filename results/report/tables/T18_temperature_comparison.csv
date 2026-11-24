@@ -1,0 +1,4 @@
+Run tag,Temperature,Models,Delivery,Financial,Quality,Volume,Compliance,CR ≤ 0.10 main,CR ≤ 0.10 delivery,Mean CV main weights
+temp_0.0,0.0,9,0.1854,0.0870,0.3538,0.0858,0.2880,13/27,14/27,0.148
+main,0.6,9,0.1744,0.0796,0.3507,0.0870,0.3083,15/45,23/45,0.232
+temp_1.0,1.0,9,0.1725,0.0810,0.3297,0.0938,0.3230,10/27,14/27,0.230

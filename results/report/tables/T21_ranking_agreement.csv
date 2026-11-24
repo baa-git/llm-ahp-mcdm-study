@@ -1,0 +1,13 @@
+Method,Weights,Spearman rho,Kendall tau,Suppliers with different rank
+TOPSIS,"LLM panel Unguided, zero-shot (direct)",1.000,1.000,0
+TOPSIS,"LLM panel Unguided, CoT",1.000,1.000,0
+TOPSIS,LLM panel Guided (zero-shot),0.900,0.800,2
+TOPSIS,Equal (1/8),1.000,1.000,0
+ARAS,"LLM panel Unguided, zero-shot (direct)",1.000,1.000,0
+ARAS,"LLM panel Unguided, CoT",1.000,1.000,0
+ARAS,LLM panel Guided (zero-shot),1.000,1.000,0
+ARAS,Equal (1/8),1.000,1.000,0
+EDAS,"LLM panel Unguided, zero-shot (direct)",0.900,0.800,2
+EDAS,"LLM panel Unguided, CoT",0.900,0.800,2
+EDAS,LLM panel Guided (zero-shot),1.000,1.000,0
+EDAS,Equal (1/8),1.000,1.000,0

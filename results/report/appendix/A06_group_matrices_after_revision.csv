@@ -1,0 +1,19 @@
+source,matrices,task,row criterion,a_i1,a_i2,a_i3,a_i4,a_i5,weight,lambda_max,CI,CR
+"LLM panel Unguided, zero-shot (direct)",45,main,Delivery,1.0000,2.0083,0.3392,1.7797,0.5125,0.1548,5.0525,0.0131,0.0117
+"LLM panel Unguided, zero-shot (direct)",45,main,Financial,0.4979,1.0000,0.2297,0.9469,0.2953,0.0849,5.0525,0.0131,0.0117
+"LLM panel Unguided, zero-shot (direct)",45,main,Quality,2.9480,4.3538,1.0000,3.1163,0.8120,0.3442,5.0525,0.0131,0.0117
+"LLM panel Unguided, zero-shot (direct)",45,main,Volume,0.5619,1.0561,0.3209,1.0000,0.3752,0.1001,5.0525,0.0131,0.0117
+"LLM panel Unguided, zero-shot (direct)",45,main,Compliance,1.9512,3.3860,1.2315,2.6655,1.0000,0.3160,5.0525,0.0131,0.0117
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D1 Delivered,1.0000,3.6918,2.1842,2.6783,,0.4798,4.0394,0.0131,0.0146
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D2 Pending,0.2709,1.0000,1.0085,0.6962,,0.1457,4.0394,0.0131,0.0146
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D3 Cancelled,0.4578,0.9916,1.0000,0.6846,,0.1666,4.0394,0.0131,0.0146
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D4 Partially delivered,0.3734,1.4364,1.4608,1.0000,,0.2079,4.0394,0.0131,0.0146
+"LLM panel Unguided, CoT",45,main,Delivery,1.0000,2.6718,0.3454,3.5868,0.7256,0.1914,5.0528,0.0132,0.0118
+"LLM panel Unguided, CoT",45,main,Financial,0.3743,1.0000,0.2257,1.5450,0.3135,0.0842,5.0528,0.0132,0.0118
+"LLM panel Unguided, CoT",45,main,Quality,2.8948,4.4312,1.0000,5.1217,1.7737,0.4165,5.0528,0.0132,0.0118
+"LLM panel Unguided, CoT",45,main,Volume,0.2788,0.6473,0.1952,1.0000,0.2899,0.0641,5.0528,0.0132,0.0118
+"LLM panel Unguided, CoT",45,main,Compliance,1.3782,3.1897,0.5638,3.4492,1.0000,0.2438,5.0528,0.0132,0.0118
+"LLM panel Unguided, CoT",45,delivery,D1 Delivered,1.0000,3.9038,4.0154,3.6992,,0.5616,4.0148,0.0049,0.0055
+"LLM panel Unguided, CoT",45,delivery,D2 Pending,0.2562,1.0000,1.2100,0.7380,,0.1414,4.0148,0.0049,0.0055
+"LLM panel Unguided, CoT",45,delivery,D3 Cancelled,0.2490,0.8264,1.0000,0.8944,,0.1336,4.0148,0.0049,0.0055
+"LLM panel Unguided, CoT",45,delivery,D4 Partially delivered,0.2703,1.3549,1.1181,1.0000,,0.1634,4.0148,0.0049,0.0055

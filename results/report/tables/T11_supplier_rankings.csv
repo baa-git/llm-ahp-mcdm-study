@@ -1,0 +1,21 @@
+Weights,Supplier,TOPSIS score,TOPSIS rank,ARAS score,ARAS rank,EDAS score,EDAS rank
+Experts,Alpha_Inc,0.9035,2,0.7063,2,0.9928,1
+Experts,Beta_Supplies,0.3720,4,0.3476,4,0.3116,4
+Experts,Delta_Logistics,0.0268,5,0.3142,5,0.0040,5
+Experts,Epsilon_Group,0.9180,1,0.8473,1,0.9858,2
+Experts,Gamma_Co,0.6890,3,0.4498,3,0.6512,3
+"LLM panel Unguided, zero-shot (direct)",Alpha_Inc,0.9092,2,0.6752,2,0.9797,2
+"LLM panel Unguided, zero-shot (direct)",Beta_Supplies,0.3756,4,0.3066,4,0.3233,4
+"LLM panel Unguided, zero-shot (direct)",Delta_Logistics,0.0125,5,0.2632,5,0.0011,5
+"LLM panel Unguided, zero-shot (direct)",Epsilon_Group,0.9364,1,0.8641,1,0.9978,1
+"LLM panel Unguided, zero-shot (direct)",Gamma_Co,0.6883,3,0.3977,3,0.6387,3
+"LLM panel Unguided, CoT",Alpha_Inc,0.9191,2,0.7140,2,0.9957,2
+"LLM panel Unguided, CoT",Beta_Supplies,0.3703,4,0.3281,4,0.3200,4
+"LLM panel Unguided, CoT",Delta_Logistics,0.0119,5,0.2844,5,0.0011,5
+"LLM panel Unguided, CoT",Epsilon_Group,0.9300,1,0.8536,1,0.9960,1
+"LLM panel Unguided, CoT",Gamma_Co,0.6922,3,0.4230,3,0.6427,3
+LLM panel Guided (zero-shot),Alpha_Inc,0.9317,1,0.7310,2,0.9978,1
+LLM panel Guided (zero-shot),Beta_Supplies,0.3655,4,0.2890,4,0.3144,4
+LLM panel Guided (zero-shot),Delta_Logistics,0.0084,5,0.2436,5,0.0010,5
+LLM panel Guided (zero-shot),Epsilon_Group,0.9274,2,0.8397,1,0.9863,2
+LLM panel Guided (zero-shot),Gamma_Co,0.6960,3,0.3927,3,0.6389,3

@@ -1,0 +1,11 @@
+run_tag,guidance,technique,condition,task,records,distinct_prompt_sha256,distinct_prompt_id,stored_hash_matches_stored_messages,messages_equal_current_code,stored_hash_equals_current_code_hash
+main,unguided,CoT,CoT,delivery,45,1,1,45,45,45
+main,unguided,CoT,CoT,main,45,1,1,45,45,45
+main,guided,zero-shot,guided,delivery,45,1,1,45,45,45
+main,guided,zero-shot,guided,main,45,1,1,45,45,45
+main,unguided,zero-shot,direct,delivery,45,1,1,45,45,45
+main,unguided,zero-shot,direct,main,45,1,1,45,45,45
+temp_0.0,unguided,zero-shot,direct,delivery,27,1,1,27,27,27
+temp_0.0,unguided,zero-shot,direct,main,27,1,1,27,27,27
+temp_1.0,unguided,zero-shot,direct,delivery,27,1,1,27,27,27
+temp_1.0,unguided,zero-shot,direct,main,27,1,1,27,27,27

@@ -1,0 +1,37 @@
+source,matrices,task,row criterion,a_i1,a_i2,a_i3,a_i4,a_i5,weight,lambda_max,CI,CR
+Experts,7,main,Delivery,1.0000,1.7844,0.5719,5.2946,0.5572,0.2147,5.1439,0.0360,0.0321
+Experts,7,main,Financial,0.5604,1.0000,0.6859,3.5630,0.5428,0.1604,5.1439,0.0360,0.0321
+Experts,7,main,Quality,1.7487,1.4579,1.0000,5.4442,1.6685,0.3186,5.1439,0.0360,0.0321
+Experts,7,main,Volume,0.1889,0.2807,0.1837,1.0000,0.2959,0.0529,5.1439,0.0360,0.0321
+Experts,7,main,Compliance,1.7948,1.8422,0.5993,3.3800,1.0000,0.2535,5.1439,0.0360,0.0321
+Experts,7,delivery,D1 Delivered,1.0000,0.7499,1.1787,1.4122,,0.2512,4.0561,0.0187,0.0208
+Experts,7,delivery,D2 Pending,1.3335,1.0000,1.0474,3.1421,,0.3471,4.0561,0.0187,0.0208
+Experts,7,delivery,D3 Cancelled,0.8484,0.9548,1.0000,1.6322,,0.2560,4.0561,0.0187,0.0208
+Experts,7,delivery,D4 Partially delivered,0.7081,0.3183,0.6127,1.0000,,0.1457,4.0561,0.0187,0.0208
+"LLM panel Unguided, zero-shot (direct)",45,main,Delivery,1.0000,2.0560,0.2519,3.3846,0.6472,0.1744,5.2758,0.0690,0.0616
+"LLM panel Unguided, zero-shot (direct)",45,main,Financial,0.4864,1.0000,0.2059,0.9902,0.3150,0.0796,5.2758,0.0690,0.0616
+"LLM panel Unguided, zero-shot (direct)",45,main,Quality,3.9705,4.8574,1.0000,2.3847,0.6911,0.3507,5.2758,0.0690,0.0616
+"LLM panel Unguided, zero-shot (direct)",45,main,Volume,0.2955,1.0099,0.4193,1.0000,0.3012,0.0870,5.2758,0.0690,0.0616
+"LLM panel Unguided, zero-shot (direct)",45,main,Compliance,1.5451,3.1742,1.4470,3.3205,1.0000,0.3083,5.2758,0.0690,0.0616
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D1 Delivered,1.0000,4.1073,1.5929,3.7056,,0.4890,4.2338,0.0779,0.0866
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D2 Pending,0.2435,1.0000,0.8550,0.7930,,0.1329,4.2338,0.0779,0.0866
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D3 Cancelled,0.6278,1.1696,1.0000,0.4767,,0.1732,4.2338,0.0779,0.0866
+"LLM panel Unguided, zero-shot (direct)",45,delivery,D4 Partially delivered,0.2699,1.2611,2.0979,1.0000,,0.2050,4.2338,0.0779,0.0866
+"LLM panel Unguided, CoT",45,main,Delivery,1.0000,1.9384,0.3750,3.2484,0.6842,0.1864,5.1023,0.0256,0.0228
+"LLM panel Unguided, CoT",45,main,Financial,0.5159,1.0000,0.2596,1.5296,0.2806,0.0950,5.1023,0.0256,0.0228
+"LLM panel Unguided, CoT",45,main,Quality,2.6665,3.8520,1.0000,4.2637,1.2834,0.3757,5.1023,0.0256,0.0228
+"LLM panel Unguided, CoT",45,main,Volume,0.3078,0.6538,0.2345,1.0000,0.4582,0.0800,5.1023,0.0256,0.0228
+"LLM panel Unguided, CoT",45,main,Compliance,1.4616,3.5634,0.7792,2.1826,1.0000,0.2629,5.1023,0.0256,0.0228
+"LLM panel Unguided, CoT",45,delivery,D1 Delivered,1.0000,3.8244,3.9193,3.6604,,0.5568,4.0202,0.0067,0.0075
+"LLM panel Unguided, CoT",45,delivery,D2 Pending,0.2615,1.0000,0.8375,0.6158,,0.1243,4.0202,0.0067,0.0075
+"LLM panel Unguided, CoT",45,delivery,D3 Cancelled,0.2551,1.1940,1.0000,0.9832,,0.1509,4.0202,0.0067,0.0075
+"LLM panel Unguided, CoT",45,delivery,D4 Partially delivered,0.2732,1.6239,1.0171,1.0000,,0.1680,4.0202,0.0067,0.0075
+LLM panel Guided (zero-shot),45,main,Delivery,1.0000,3.0440,0.2596,4.2271,0.4330,0.1555,5.1412,0.0353,0.0315
+LLM panel Guided (zero-shot),45,main,Financial,0.3285,1.0000,0.1730,2.2636,0.2471,0.0721,5.1412,0.0353,0.0315
+LLM panel Guided (zero-shot),45,main,Quality,3.8525,5.7819,1.0000,6.9620,2.2742,0.4651,5.1412,0.0353,0.0315
+LLM panel Guided (zero-shot),45,main,Volume,0.2366,0.4418,0.1436,1.0000,0.1955,0.0451,5.1412,0.0353,0.0315
+LLM panel Guided (zero-shot),45,main,Compliance,2.3095,4.0465,0.4397,5.1154,1.0000,0.2622,5.1412,0.0353,0.0315
+LLM panel Guided (zero-shot),45,delivery,D1 Delivered,1.0000,4.6601,5.3750,4.5675,,0.6153,4.0089,0.0030,0.0033
+LLM panel Guided (zero-shot),45,delivery,D2 Pending,0.2146,1.0000,1.5371,0.9722,,0.1414,4.0089,0.0030,0.0033
+LLM panel Guided (zero-shot),45,delivery,D3 Cancelled,0.1860,0.6506,1.0000,0.6709,,0.1005,4.0089,0.0030,0.0033
+LLM panel Guided (zero-shot),45,delivery,D4 Partially delivered,0.2189,1.0286,1.4905,1.0000,,0.1429,4.0089,0.0030,0.0033

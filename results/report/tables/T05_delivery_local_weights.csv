@@ -1,0 +1,5 @@
+Criterion,Experts,LLM unguided_direct,Diff unguided_direct (pp),LLM unguided_cot,Diff unguided_cot (pp),LLM guided,Diff guided (pp)
+D1 Delivered,0.2512,0.4890,23.77,0.5568,30.56,0.6153,36.41
+D2 Pending,0.3471,0.1329,-21.43,0.1243,-22.28,0.1414,-20.58
+D3 Cancelled,0.2560,0.1732,-8.28,0.1509,-10.51,0.1005,-15.55
+D4 Partially delivered,0.1457,0.2050,5.93,0.1680,2.23,0.1429,-0.28

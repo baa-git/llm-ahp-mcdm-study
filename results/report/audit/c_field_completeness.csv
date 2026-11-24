@@ -1,0 +1,6 @@
+file,run_tag,records,messages,raw_reply,requested_params,applied_params,usage_tokens,cost,provider,generation_id,timestamp_utc,prompt_id,prompt_sha256,reasoning_tokens,records_lacking_any
+calls.jsonl,main,270,270,270,270,270,270,270,270,270,270,270,270,270,0
+calls.jsonl,temp_0.0,54,54,54,54,54,54,54,54,54,54,54,54,54,0
+calls.jsonl,temp_1.0,54,54,54,54,54,54,54,54,54,54,54,54,54,0
+revisions.jsonl,revision_final,250,250,250,250,250,250,250,250,250,250,250,250,250,0
+judge_calls.jsonl,revision_final,500,500,500,500,500,500,500,500,500,500,,,500,0

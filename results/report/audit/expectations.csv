@@ -1,0 +1,87 @@
+check,expected,observed,status
+b main: cells present,270,270,PASS
+b main: missing / duplicated / unexpected cells,"(0, 0, 0)","(0, 0, 0)",PASS
+b main: cells without a parsed record,0,0,PASS
+b temp_0.0: cells present,54,54,PASS
+b temp_0.0: missing / duplicated / unexpected cells,"(0, 0, 0)","(0, 0, 0)",PASS
+b temp_0.0: cells without a parsed record,0,0,PASS
+b temp_1.0: cells present,54,54,PASS
+b temp_1.0: missing / duplicated / unexpected cells,"(0, 0, 0)","(0, 0, 0)",PASS
+b temp_1.0: cells without a parsed record,0,0,PASS
+c calls.jsonl main: records lacking a required field,0,0,PASS
+c calls.jsonl temp_0.0: records lacking a required field,0,0,PASS
+c calls.jsonl temp_1.0: records lacking a required field,0,0,PASS
+c revisions.jsonl revision_final: records lacking a required field,0,0,PASS
+c judge_calls.jsonl revision_final: records lacking a required field,0,0,PASS
+d main CoT/delivery: distinct prompt_sha256,1,1,PASS
+d main CoT/delivery: stored hash = sha256(stored messages),45,45,PASS
+d main CoT/delivery: stored messages = current code,45,45,PASS
+d main CoT/main: distinct prompt_sha256,1,1,PASS
+d main CoT/main: stored hash = sha256(stored messages),45,45,PASS
+d main CoT/main: stored messages = current code,45,45,PASS
+d main guided/delivery: distinct prompt_sha256,1,1,PASS
+d main guided/delivery: stored hash = sha256(stored messages),45,45,PASS
+d main guided/delivery: stored messages = current code,45,45,PASS
+d main guided/main: distinct prompt_sha256,1,1,PASS
+d main guided/main: stored hash = sha256(stored messages),45,45,PASS
+d main guided/main: stored messages = current code,45,45,PASS
+d main direct/delivery: distinct prompt_sha256,1,1,PASS
+d main direct/delivery: stored hash = sha256(stored messages),45,45,PASS
+d main direct/delivery: stored messages = current code,45,45,PASS
+d main direct/main: distinct prompt_sha256,1,1,PASS
+d main direct/main: stored hash = sha256(stored messages),45,45,PASS
+d main direct/main: stored messages = current code,45,45,PASS
+d temp_0.0 direct/delivery: distinct prompt_sha256,1,1,PASS
+d temp_0.0 direct/delivery: stored hash = sha256(stored messages),27,27,PASS
+d temp_0.0 direct/delivery: stored messages = current code,27,27,PASS
+d temp_0.0 direct/main: distinct prompt_sha256,1,1,PASS
+d temp_0.0 direct/main: stored hash = sha256(stored messages),27,27,PASS
+d temp_0.0 direct/main: stored messages = current code,27,27,PASS
+d temp_1.0 direct/delivery: distinct prompt_sha256,1,1,PASS
+d temp_1.0 direct/delivery: stored hash = sha256(stored messages),27,27,PASS
+d temp_1.0 direct/delivery: stored messages = current code,27,27,PASS
+d temp_1.0 direct/main: distinct prompt_sha256,1,1,PASS
+d temp_1.0 direct/main: stored hash = sha256(stored messages),27,27,PASS
+d temp_1.0 direct/main: stored messages = current code,27,27,PASS
+d guided/main: system message = file (CRLF->LF),45,45,PASS
+d guided/main: user message = file bytes,45,45,PASS
+d guided/main: file = json.dumps(payload),True,True,PASS
+d guided/delivery: system message = file (CRLF->LF),45,45,PASS
+d guided/delivery: user message = file bytes,45,45,PASS
+d guided/delivery: file = json.dumps(payload),True,True,PASS
+d revision_final revisions: stored hash = sha256(stored messages),250,250,PASS
+g recompute calls.jsonl main: max abs diff <= 1e-9,<= 1e-9,1.15e-14,PASS
+g recompute calls.jsonl pilot: max abs diff <= 1e-9,<= 1e-9,8.88e-15,PASS
+g recompute calls.jsonl temp_0.0: max abs diff <= 1e-9,<= 1e-9,1.24e-14,PASS
+g recompute calls.jsonl temp_1.0: max abs diff <= 1e-9,<= 1e-9,1.24e-14,PASS
+g recompute revisions.jsonl rev_final: max abs diff <= 1e-9,<= 1e-9,3.55e-15,PASS
+g recompute revisions.jsonl rev_test_none: max abs diff <= 1e-9,<= 1e-9,5.33e-15,PASS
+g recompute revisions.jsonl revision_final: max abs diff <= 1e-9,<= 1e-9,1.15e-14,PASS
+g recompute revisions.jsonl revision_judge: max abs diff <= 1e-9,<= 1e-9,1.51e-14,PASS
+g recompute revisions.jsonl revision_v2: max abs diff <= 1e-9,<= 1e-9,4.44e-15,PASS
+g recompute failures,0,0,PASS
+g re-parse calls.jsonl main: parse_ok agrees,270,270,PASS
+g re-parse calls.jsonl main: flag differences,0,0,PASS
+g re-parse calls.jsonl pilot: parse_ok agrees,9,9,PASS
+g re-parse calls.jsonl pilot: flag differences,0,0,PASS
+g re-parse calls.jsonl temp_0.0: parse_ok agrees,54,54,PASS
+g re-parse calls.jsonl temp_0.0: flag differences,0,0,PASS
+g re-parse calls.jsonl temp_1.0: parse_ok agrees,54,54,PASS
+g re-parse calls.jsonl temp_1.0: flag differences,0,0,PASS
+g re-parse revisions.jsonl rev_final: parse_ok agrees,7,7,PASS
+g re-parse revisions.jsonl rev_final: flag differences,0,0,PASS
+g re-parse revisions.jsonl rev_test_none: parse_ok agrees,2,2,PASS
+g re-parse revisions.jsonl rev_test_none: flag differences,0,0,PASS
+g re-parse revisions.jsonl revision_final: parse_ok agrees,250,250,PASS
+g re-parse revisions.jsonl revision_final: flag differences,0,0,PASS
+g re-parse revisions.jsonl revision_judge: parse_ok agrees,245,245,PASS
+g re-parse revisions.jsonl revision_judge: flag differences,0,0,PASS
+g re-parse revisions.jsonl revision_v2: parse_ok agrees,6,6,PASS
+g re-parse revisions.jsonl revision_v2: flag differences,0,0,PASS
+h key-like strings (OpenRouter key format),0,0,PASS
+h bearer followed by a token-like string,0,0,PASS
+f backup calls_backup_before_reparse.jsonl: raw fields identical to calls.jsonl,172,172,PASS
+f backup calls.jsonl.bak: raw fields identical to calls.jsonl,172,172,PASS
+j revision_final: chains present = chains needing revision,89,89,PASS
+j revision_final: protocol rule violations,0,0,PASS
+j revision_final: judge calls without a revision record,0,0,PASS

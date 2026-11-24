@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below. The code is cited separately (https://github.com/baa-git/llm-ahp-mcdm)."
+title: "llm-ahp-mcdm-study: records, data and results of an LLM-respondent AHP supplier-selection study"
+type: dataset
+authors:
+  - given-names: "Batur Alp"
+    family-names: "Akdoğan"
+repository: "https://github.com/baa-git/llm-ahp-mcdm-study"
+license: CC-BY-4.0
+date-released: "2026-11-24"
+keywords:
+  - analytic hierarchy process
+  - multi-criteria decision making
+  - large language models
+  - supplier selection
+  - TOPSIS
+  - ARAS
+  - EDAS
